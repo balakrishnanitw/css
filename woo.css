@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'montserratlight';
+    src: url('monster/montserrat-light-webfont.eot');
+    src: url('monster/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'), url('monster/montserrat-light-webfont.woff2') format('woff2'), url('monster/montserrat-light-webfont.woff') format('woff'), url('monster/montserrat-light-webfont.ttf') format('truetype'), url('monster/montserrat-light-webfont.svg#montserratlight') format('svg');
+}
+
+
+
+body { 
+color: #666666; 
+background-color: #f9f8f6; 
+background-image: url("https://s11.postimg.org/lojruijwz/Honda_CB_Hornet_160_R_Special_Edition_Orange.jpg"); 
+background-position: center; 
+font-family: montserratlight !important; 
+line-height: 1.4em; 
+margin: 0px;}
+.header h3 {
+	    text-align: center;
+		vertical-align: centre;
+		margin-top: 160px;
+	
+       color: #f4f4f4;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0px 4px 3px #000;
+    padding: 15px 0px;
+    letter-spacing: 1.2px;
+}
+.header h4{
+	  margin-top: 190px;
+       color: #f4f4f4;
+    font-size: 25px;
+    font-weight: 300;
+    text-shadow: 0px 4px 3px #000;
+    padding: 15px 0px;
+    letter-spacing: 1.2px;
+}
+.form-file {
+	margin-left: 15px;
+	padding: 10px 0px;
+}
+.form-file input[type="button" i] {
+	    padding: 14px 15px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin-right: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	
+}
+form {
+	    display: inline-flex;
+}
+input[type="file" i] {
+	    margin-top: 22px;
+		    color: #d8d8d8;
+
+}
+input[type="file" i]:hover {
+	cursor: pointer;
+	    color: #fff;
+}
+input[type="submit" i] {
+	    padding: 15px 15px;
+    margin: 5px 0px;
+    border-radius: 9px;
+    border: 3px solid #fff;
+    background: #ececec;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+input[type="submit" i]:hover, .form-file input[type="button" i]:hover {
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+}
+audio {
+	    margin-top: 4px;
+    border: 4px solid #fff;
+       border-radius: 8px;
+  }
